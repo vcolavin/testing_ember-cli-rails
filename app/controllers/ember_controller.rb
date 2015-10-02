@@ -1,4 +1,5 @@
 class EmberController < ActionController::Base
+
   def root
   end
 
