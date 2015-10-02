@@ -1,5 +1,4 @@
 EmberCLI.configure do |c|
-
-  c.app :root_ember_app
-  c.app :app_ember_app, path: Rails.root.join('app', 'app_ember_app')
+  c.app :ember_app_in_root
+  c.app :ember_app_in_app, path: Rails.root.join('app', 'ember_app_in_app')
 end
